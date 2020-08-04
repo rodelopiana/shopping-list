@@ -33,10 +33,7 @@ function addListAfterKeypress(event) {
 	}
 }
 
-function createDelButton(){
-	var btn = document.createElement("button");
-	
-}
+
 
 function markDone(e){
 	e.target.classList.toggle("done");
